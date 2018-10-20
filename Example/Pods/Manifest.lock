@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (7.0.3)
+  - pod-deploy (0.1.0)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0.2)
+  - pod-deploy (from `../`)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  pod-deploy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  pod-deploy: fdef5420440ce283b26120f9559c4353cc16950d
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: a3c12707c1b79444726fa9b0ad5c9f61ecf6a584
+
+COCOAPODS: 1.6.0.beta.2

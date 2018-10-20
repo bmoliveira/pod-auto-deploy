@@ -1,0 +1,22 @@
+{
+  "name": "pod-deploy",
+  "version": "0.1.0",
+  "summary": "A short description of pod-deploy.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bmoliveira/pod-deploy",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bmoliveira": "bm.oliveira.dev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/bmoliveira/pod-deploy.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "pod-deploy/Classes/**/*"
+}
