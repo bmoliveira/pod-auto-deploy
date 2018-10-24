@@ -29,4 +29,17 @@ platform :ios do
   private_lane :carthage_build do
   end
 
+  desc "Deploy to cocoapods and carthage"
+  lane :deploy do
+    deploy_pod
+    deploy_carthage
+  end
+
+  desc "Deploy to cocoapods"
+  private_lane :deploy_pod do
+  end
+
+  desc "Deploy to carthage"
+  private_lane :deploy_carthage do
+  end
 end
