@@ -53,12 +53,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B66FCFE92188A8FE0049C903 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6BA45FA21886EB900AE0E52 /* Info.plist */,
+				B6BA45F921886EB900AE0E52 /* pod_deploy.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B6BA45EC21886EB900AE0E52 = {
 			isa = PBXGroup;
 			children = (
+				B6BA45F721886EB900AE0E52 /* Products */,
+				B66FCFE92188A8FE0049C903 /* Resources */,
 				B6BA45F821886EB900AE0E52 /* Source */,
 				B6BA460321886EB900AE0E52 /* Tests */,
-				B6BA45F721886EB900AE0E52 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				B6BA461321886F9C00AE0E52 /* PodDeploy.swift */,
-				B6BA461021886F4300AE0E52 /* Resources */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -83,19 +92,10 @@
 		B6BA460321886EB900AE0E52 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B6BA461121886F8D00AE0E52 /* PodDeployTestTests.swift */,
 				B6BA460621886EB900AE0E52 /* Info.plist */,
+				B6BA461121886F8D00AE0E52 /* PodDeployTestTests.swift */,
 			);
 			path = Tests;
-			sourceTree = "<group>";
-		};
-		B6BA461021886F4300AE0E52 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B6BA45F921886EB900AE0E52 /* pod_deploy.h */,
-				B6BA45FA21886EB900AE0E52 /* Info.plist */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
