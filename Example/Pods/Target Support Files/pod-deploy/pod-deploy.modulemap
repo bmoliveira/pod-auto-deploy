@@ -1,6 +1,0 @@
-framework module pod_deploy {
-  umbrella header "pod-deploy-umbrella.h"
-
-  export *
-  module * { export * }
-}
