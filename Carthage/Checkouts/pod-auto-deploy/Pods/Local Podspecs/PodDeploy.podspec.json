@@ -1,0 +1,22 @@
+{
+  "name": "PodDeploy",
+  "version": "0.1.0",
+  "summary": "An example project structure of a cocoapod, with fastlane CI deploy.",
+  "description": "An example project structure of a cocoapod, with fastlane CI deploy.",
+  "homepage": "https://github.com/bmoliveira/pod-deploy",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bmoliveira": "bm.oliveira.dev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/bmoliveira/pod-deploy.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Source/**/*"
+}

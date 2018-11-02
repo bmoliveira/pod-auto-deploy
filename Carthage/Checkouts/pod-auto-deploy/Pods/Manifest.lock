@@ -1,0 +1,16 @@
+PODS:
+  - PodDeploy (0.1.0)
+
+DEPENDENCIES:
+  - PodDeploy (from `.`)
+
+EXTERNAL SOURCES:
+  PodDeploy:
+    :path: "."
+
+SPEC CHECKSUMS:
+  PodDeploy: dac1f4956d4f12135f662610e8a7e83a8ff9f7f1
+
+PODFILE CHECKSUM: ef2a09805b4e9f3bbd9602a8092e9c03800d5b64
+
+COCOAPODS: 1.6.0.beta.2

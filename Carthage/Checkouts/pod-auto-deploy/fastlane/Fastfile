@@ -1,0 +1,57 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Test, lint pod and Build carthage."
+  lane :test do
+    test_lib
+    pod_lint
+    carthage_build
+  end
+
+  desc "Cocoapods lint the pod for all platforms"
+  private_lane :pod_lint do
+    pod_lib_lint(allow_warnings: true)
+  end
+
+  desc "Run the tests"
+  private_lane :test_lib do  
+    scan(workspace: "pod-deploy.xcworkspace",
+         scheme: "PodDeploy"
+        )
+  end
+
+  desc "Run cocoapods"
+  private_lane :pod_install do
+    cocoapods(podfile: "Podfile",
+              silent: true
+      )
+  end
+
+  desc "Carthage"
+  private_lane :carthage_build do
+    carthage(
+      command: "build",
+      use_ssh: false,
+      use_submodules: false,
+      use_binaries: false,
+      no_build: false,
+      no_skip_current: false,
+      verbose: false,
+      platform: "all",
+      configuration: "Release",
+      cache_builds: false,
+      toolchain: "com.apple.dt.toolchain.Swift_4",
+      new_resolver: false,
+      log_path: "carthage.log"
+    )
+  end
+
+  desc "Deploy to cocoapods and carthage"
+  lane :deploy do
+    deploy_pod
+  end
+
+  desc "Deploy to cocoapods"
+  private_lane :deploy_pod do
+  end
+end

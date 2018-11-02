@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='PodDeployTests.xctest' tests='2' failures='0'>
+  <testsuite name='PodDeployTests.PodDeployTestTests' tests='2' failures='0'>
+    <testcase classname='PodDeployTests.PodDeployTestTests' name='testExample' time='0.002'/>
+    <testcase classname='PodDeployTests.PodDeployTestTests' name='testPerformanceExample' time='0.324'/>
+  </testsuite>
+</testsuites>

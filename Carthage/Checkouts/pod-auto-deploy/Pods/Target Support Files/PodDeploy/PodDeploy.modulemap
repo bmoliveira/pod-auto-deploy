@@ -1,0 +1,6 @@
+module PodDeploy {
+  umbrella header "PodDeploy-umbrella.h"
+
+  export *
+  module * { export * }
+}
