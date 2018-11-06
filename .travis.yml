@@ -17,5 +17,4 @@ jobs:
     - stage: deploy
       if: branch = master && tag IS present
       script: 
-        - bundle exec fastlane test
         - bundle exec fastlane deploy
