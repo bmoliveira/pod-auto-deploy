@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
                           Current dependency management supported:
                            - Cocoapods
                            - Carthage
+                           
                        DESC
 
   s.homepage         = 'https://github.com/bmoliveira/pod-auto-deploy'
