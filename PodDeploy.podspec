@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodDeploy'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'An example project structure of a cocoapod, with fastlane CI deploy.'
 
 # This description is used to generate tags and improve search results.
@@ -19,12 +19,16 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
                           An example project structure of a cocoapod, with fastlane CI deploy.
+
+                          Current dependency management supported:
+                           - Cocoapods
+                           - Carthage
                        DESC
 
-  s.homepage         = 'https://github.com/bmoliveira/pod-deploy'
+  s.homepage         = 'https://github.com/bmoliveira/pod-auto-deploy'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bmoliveira' => 'bm.oliveira.dev@gmail.com' }
-  s.source           = { :git => 'https://github.com/bmoliveira/pod-deploy.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/bmoliveira/pod-auto-deploy.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
